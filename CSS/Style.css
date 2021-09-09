@@ -121,6 +121,7 @@ p.returnbutton {
 }
 p.center {
   text-align: center;
+  margin-left: 20px;
 }
 ol {
   padding: 5px;
