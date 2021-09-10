@@ -101,17 +101,19 @@ p {
   font-size: 12px
   font-variant: small-caps;
   line-height: 2;
+  margin: 1%;
 }
 p.footer{
   color: white;
 }
 p.essay{
   text-indent: 1.5em;
-  margin-right: 10px;
+  margin-left: 1%;
+  margin-right: 5%;
 }
 p.about{
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 p.returnbutton {
   margin-left: 20px;
@@ -121,7 +123,8 @@ p.returnbutton {
 }
 p.center {
   text-align: center;
-  margin-left: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 ol {
   padding: 5px;
@@ -261,6 +264,16 @@ img {
   grid-gap: 10px;
 
 }
+.item_img {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  border-color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: -2.5%;
+}
 .item1 {
   grid-column-start: 1;
   grid-row-start: 1;
@@ -321,4 +334,9 @@ a:hover{
   width: 50px;
   text-align: center;
   text-decoration: none;
+}
+
+.illustration img {
+  width: 100%;
+  display: block;
 }
